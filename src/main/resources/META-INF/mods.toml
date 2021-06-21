@@ -1,0 +1,24 @@
+modLoader="javafml" 
+loaderVersion="[35,)"
+license="MIT"
+[[mods]]
+modId="goder" 
+version="${file.jarVersion}" 
+displayName="Goder" 
+logoFile="examplemod.png" #optional
+credits="Made by Jun and help of WynnKunGz."
+description='''
+Mod by you know Jun and WynnKunGz, this mod adds op armour and tools ores and more its a pretty rare too so peace. version:1.0
+'''
+[[dependencies.goder]]
+    modId="forge" 
+    mandatory=true 
+    versionRange="[35,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.goder]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4,1.17)"
+    ordering="NONE"
+    side="BOTH"
